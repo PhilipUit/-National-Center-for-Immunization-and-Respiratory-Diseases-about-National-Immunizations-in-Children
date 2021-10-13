@@ -13,6 +13,16 @@ NISPUF14_CODEBOOK.PDF is a PDF that contains a description of the format for the
 
 Why would we need a PDF to tell us how to read our data? Well, this data file is stored in a positional format. This means that both the value and relative position of each character provides meaning within the dataset.
 
+#### Setup importing packages we will need
+
+import PyPDF2 
+from PyPDF2 import PdfFileReader, PdfFileWriter,PdfFileMerger
+
+import pandas as pd
+import numpy as np
+import json
+import tabula library
+import tabula
 
 ## Summary
 
