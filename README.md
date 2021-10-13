@@ -12,7 +12,13 @@ We will need to read the .pdf file to be able to better understand the .dat file
 NISPUF14_CODEBOOK.PDF is a PDF that contains a description of the format for the data in nispuf14.dat. In other words, the PDF tells you how to read the data in nispuf14.dat.
 
 Why would we need a PDF to tell us how to read our data? Well, this data file is stored in a positional format. This means that both the value and relative position of each character provides meaning within the dataset.
-## Setup importing packages we will need
+### # Setup importing packages we will need
+from PyPDF2 import PdfFileReader, PdfFileWriter,PdfFileMerger
+import pandas as pd
+import numpy as np
+import json
+# import tabula library
+import tabula
 
 ## Summary
 
