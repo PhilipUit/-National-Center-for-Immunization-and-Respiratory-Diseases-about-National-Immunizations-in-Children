@@ -15,14 +15,13 @@ Why would we need a PDF to tell us how to read our data? Well, this data file is
 
 #### Setup importing packages we will need
 
-import PyPDF2 
-from PyPDF2 import PdfFileReader, PdfFileWriter,PdfFileMerger
-
-import pandas as pd
-import numpy as np
-import json
-import tabula library
-import tabula
+- import PyPDF2 
+- from PyPDF2 import PdfFileReader, PdfFileWriter,PdfFileMerger
+- import pandas as pd
+- import numpy as np
+- import json
+- import tabula library
+- import tabula
 
 ## Summary
 
