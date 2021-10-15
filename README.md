@@ -1,9 +1,9 @@
 ##  National Center for Immunization and Respiratory Diseases about National Immunizations in Children
 Retrieve all of the data within nispuf14.dat and store it in a more accessible format
 Accessible format can be any of the following:
-csv file
-json file
-relational database
+- csv file
+- json file
+- relational database
 #### About the datasets:
 We will work with 2 datasets this week: NISPUF14_CODEBOOK.PDF & nispuf14.dat (attached) from the National Center for Immunization and Respiratory Diseases about National Immunizations in Children.
 
